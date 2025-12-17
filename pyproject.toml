@@ -1,0 +1,12 @@
+[project]
+name = "workout-file-generator"
+version = "0.1.0"
+description = "Generate TCX files from minimal workout inputs"
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0"]
+
+[project.scripts]
+workout-file-generator = "workout_file_generator.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

@@ -3,7 +3,19 @@ defaults:
   output_dir: out/tcx
 
 workouts:
+  - date: "2025-12-13"
+    distance_mi: 4.30
+    pace: "9:53"
+
+  - date: "2025-12-12"
+    distance_mi: 5.90
+    pace: "8:30"
+
   - date: "2025-12-11"
     distance_mi: 5.20
     pace: "8:42"
     start_time: "12:40"
+
+  - date: "2025-12-10"
+    distance_mi: 6.50
+    pace: "9:14"

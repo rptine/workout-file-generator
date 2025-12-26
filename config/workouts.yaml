@@ -6,3 +6,7 @@ workouts:
   - date: "2025-12-21"
     distance_mi: 3.8
     pace: "10:14"
+
+  - date: "2025-12-23"
+    distance_mi: 5.2
+    pace: "9:31"

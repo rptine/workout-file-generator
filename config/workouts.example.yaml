@@ -1,0 +1,29 @@
+# Example configuration for workout-file-generator
+# Copy this file to workouts.yaml and replace with your real workouts
+
+defaults:
+  # Fixed UTC offset for local workout times
+  # NYC winter = -5, summer (DST) = -4
+  timezone_offset_hours: -5
+
+  # Sport written into the TCX file
+  sport: Running
+
+  # Output directory for generated TCX files
+  output_dir: out/tcx
+
+  # Default local start time if a workout does not specify one
+  start_time: "12:00"
+
+  # Text prepended to the Notes field in the TCX
+  notes_prefix: "generated treadmill workout"
+
+workouts:
+  - date: "2025-12-11"      # YYYY-MM-DD (required)
+    distance_mi: 5.20       # miles (required)
+    pace: "8:42"            # min:sec per mile (required)
+
+    # Optional fields
+    start_time: "12:40"     # HH:MM local time
+    avg_hr: 144             # bpm (optional)
+    notes: "treadmill run"

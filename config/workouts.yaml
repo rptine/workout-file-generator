@@ -1,0 +1,8 @@
+defaults:
+  timezone_offset_hours: -5 # NYC is -5hrs UTC
+  output_dir: out/tcx
+
+workouts:
+  - date: "2025-12-21"
+    distance_mi: 3.8
+    pace: "10:14"
